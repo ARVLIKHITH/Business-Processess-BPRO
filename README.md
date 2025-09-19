@@ -67,6 +67,7 @@ This was the **foundation of the BPRO project**, ensuring the rest of the work i
 ### Subsection 2: Process Profile & BPMN Schema
 
 📂 Files included:  
-- `Process Profile (3823028) GITHUB.pdf` → Full Process Profile (inputs, outputs, suppliers, customers, metrics).  
+- `![Process Profile Preview](docs/Process_Profile.png)  
+📂 [Process Profile Report (PDF)](./Process%20Profile%20(3823028)%20GITHUB.pdf)` → Full Process Profile (inputs, outputs, suppliers, customers, metrics).  
 - `docs/BPMN_Schema.png` → BPMN schema created with Camunda Modeler.   
 - ' ' → Proposed process improvements to further optimise production workflows and minimise material waste.
