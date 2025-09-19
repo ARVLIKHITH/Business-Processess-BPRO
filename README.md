@@ -11,7 +11,7 @@ We were required to contact a real company, obtain real data about one product, 
 
 ---
 
-## 📖 Project Assignment & Structure
+## Project Assignment & Structure
 
 - **Step 1 (Company Contact):** Approach a real company and select one product.  
 - **Step 2 (Data Collection):** Gather process-related data including raw materials, production stages, procurement, and customer details.  
@@ -23,7 +23,7 @@ This ensured that we didn’t just learn ERP software but also understood **how 
 
 ---
 
-## 🏢 Company Background – Vahini Pipes
+## Company Background – Vahini Pipes
 
 I collaborated with **[Vahini Irrigation Pvt. Ltd.](https://vahinipipes.com/)**, a manufacturing company in India that specialises in **HDPE pipes for irrigation and water systems**.  
 
@@ -48,7 +48,7 @@ This company context provided a **real foundation** to carry the product data ac
 
 ---
 
-## 🔄 BPMN (Process Modelling with Camunda)
+## BPMN (Process Modelling with Camunda)
 
 The first part of the project focused on **Business Process Modelling** using **BPMN (Business Process Model and Notation)**.  
 The task was to **design a digital schema** that outlines every key step in the lifecycle of the product – from **procurement of raw materials** to **final customer delivery**.  
@@ -57,7 +57,7 @@ I used **Camunda Modeler** to build the BPMN diagram, and I also created a **Pro
 
 ---
 
-### 🔹 Subsection 1: Story of BPMN Work
+### Subsection 1: Story of BPMN Work
 
 - **Objective:** Model the real-life processes of Vahini Pipes digitally.  
 - **Approach:**  
@@ -74,7 +74,7 @@ This was the **foundation of the BPRO project**, ensuring the rest of the work i
 
 ---
 
-### 🔹 Subsection 2: Process Profile & BPMN Schema
+### Subsection 2: Process Profile & BPMN Schema
 
 📂 Files included:  
 - `docs/Process_Profile.pdf` → Full Process Profile (inputs, outputs, suppliers, customers, metrics).  
@@ -93,18 +93,3 @@ The Process Profile defined:
 
 The BPMN schema visually represented:  
 - Procurement workflow → Sales workflow → Production workflow → Quality → Delivery.  
-
-*(I will add the actual BPMN schema and process profile images in this section)*  
-
----
-
-✅ Up to here, you now have:  
-- **Intro** (how project was assigned)  
-- **Company info (Vahini Pipes)**  
-- **BPMN section** with story + subsections for Process Profile & Schema  
-
----
-
-👉 Next, we’ll continue with **APplus (story + content + challenges + tables)** and then **SAP (modules + story + tables)**.  
-
-Do you want me to go ahead and **draft the APplus section next**, in the same detailed “story + data + tables” format?
