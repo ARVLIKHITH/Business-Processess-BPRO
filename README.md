@@ -68,7 +68,7 @@ This was the **foundation of the BPRO project**, ensuring the rest of the work i
 
 📂 Files included:  
 - 📂 [Process Profile Report (PDF)](./Process%20Profile.pdf) → Full Process Profile (inputs, outputs, suppliers, customers, metrics).  
-- `docs/BPMN_Schema.png` → BPMN schema created with Camunda Modeler.
-- <img width="13986" height="10272" alt="BPMN Schema (HDPE Pipe)" src="https://github.com/user-attachments/assets/bc472a0a-0782-4aed-915d-e94da5b86241" />
+- ![BPMN Schema](./BPMN%20Schema%20(HDPE%20Pipe).png) → BPMN schema created with Camunda Modeler.
+ <img width="13986" height="10272" alt="BPMN Schema (HDPE Pipe)" src="https://github.com/user-attachments/assets/bc472a0a-0782-4aed-915d-e94da5b86241" />
   
 - ' ' → Proposed process improvements to further optimise production workflows and minimise material waste.
