@@ -75,3 +75,33 @@ This was the **foundation of the BPRO project**, ensuring the rest of the work i
  ![BPMN Schema](./BPMN%20Schema%20(HDPE%20Pipe).png) 
  
 - 📂 [Process Improvement Presentation (PDF)](./Process%20Improvement.pdf) → Proposed process improvements to further optimise production workflows and minimise material waste.
+  
+---
+
+# AP Plus ERP
+
+The second part of the BPRO project focused on **APplus ERP**, where I digitally structured and simulated the production of HDPE pipes.  
+
+This phase emphasised **master data creation, order management, costing, and machine scheduling**.  
+Unlike SAP, APplus is designed to show process data in a more **visual and planning-oriented way**, with Gantt charts and efficiency targets.  
+
+---
+
+## Story of AP Plus Work
+
+- **Objective:** Build the digital backbone of the company (Vahini Pipes) by entering all **master data** and simulating its operations.  
+- **Approach:**  
+  - Created all **materials, BOMs, routings, work centres, and machines**.  
+  - Structured **customer master data, vendor data, and pricing**.  
+  - Entered multiple **customer orders** and triggered procurement for raw materials.  
+  - Monitored digital manufacturing flow through APplus dashboards.  
+  - Analysed **planned vs. target cost** to track efficiency.  
+- **Challenge:**  
+  - At the end of the project, all machines had to reach **80% utilisation**.  
+  - To achieve this, I carefully scheduled orders in the **Gantt chart**, balancing workloads and timing to ensure each machine reached the 80% efficiency threshold.  
+- **Outcome:**  
+  -  Achieved machine utilisation targets across all work centres.
+    IMAGE 
+  -  Demonstrated profitability analysis including **scrap, revenue, and profit tracking**.
+    IMAGE  
+
