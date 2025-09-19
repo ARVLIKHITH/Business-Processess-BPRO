@@ -2,19 +2,19 @@
 
 This repository documents my **BPRO (Business Processes) project**, where the main objective was to **simulate the entire lifecycle of a product** in three different ways:  
 
-1. **BPMN (Camunda)** – Modelling the process flow of the company  
-2. **APplus ERP** – Structuring master data and simulating digital manufacturing  
+1. **BPMN Schema** – Modelling the process flow of the company  
+2. **AP Plus ERP** – Structuring master data and simulating digital manufacturing  
 3. **SAP S/4HANA** – Executing the same processes across multiple integrated ERP modules  
 
-The project was designed to bridge **business understanding and technical ERP execution**.  
-We were required to contact a real company, obtain real data about one product, and then transform this into digital processes across the platforms.  
+The project was designed to bridge **business understanding and technical ERP execution**. This project was carried out as part of the BPRO module under the guidance of Technische Hochschule Würzburg-Schweinfurt (FHWS) faculty. 
+We were required to contact a Manufacturing company, obtain real data about one product, and then transform this into digital processes across the platforms.  
 
 ---
 
 ## Project Assignment & Structure
 
-- **Step 1 (Company Contact):** Approach a real company and select one product.  
-- **Step 2 (Data Collection):** Gather process-related data including raw materials, production stages, procurement, and customer details.  
+- **Step 1 (Company Contact):** Approach a Manufacturing company and select one product.  
+- **Step 2 (Data Collection):** Gather process-related data, including raw materials, production stages and procurement details.  
 - **Step 3 (BPMN):** Model the entire product lifecycle digitally using BPMN.  
 - **Step 4 (APplus ERP):** Enter the master data, create routings, simulate orders, and compare costs digitally.  
 - **Step 5 (SAP S/4HANA):** Rebuild the same data and processes inside SAP across MM, PP, WM, and FI modules.  
@@ -34,17 +34,7 @@ I collaborated with **[Vahini Irrigation Pvt. Ltd.](https://vahinipipes.com/)**,
   - Full supply chain involvement (raw materials → extrusion & machining → packaging → quality → delivery).  
   - Offers complexity in procurement and production, making it ideal for ERP modelling.  
 
-### 🔹 Process Inputs
-- Raw Materials: Resin H829, Impact Modifiers (FM50, B564), Titanium, Wax (Inner/Outer), Acrylic Resin, Ink, UV Stabiliser, Oil, Plastic, Paper, Water.  
-- Quality Standards: ISO 4427 (Polyethylene Pipes), ISO 9001 (QMS).  
-
-### 🔹 Process Outputs
-- **Planning Outputs:** Sales order confirmations (SAP), Master Production Schedules (APplus).  
-- **Products:** HDPE pipes manufactured, packaged, labelled, and stored for delivery.  
-- **Quality Reports:** Certified QA and third-party test reports.  
-- **Customers:** Rohr GMBH, BAUG, Tech GMBH, Mahalakshmi Pvt. Ltd, Studentenwerk Pvt., and others.  
-
-This company context provided a **real foundation** to carry the product data across BPMN, APplus, and SAP.  
+This company context provided a **real foundation** to carry the product data across BPMN, AP Plus, and SAP.  
 
 ---
 
@@ -78,18 +68,5 @@ This was the **foundation of the BPRO project**, ensuring the rest of the work i
 
 📂 Files included:  
 - `docs/Process_Profile.pdf` → Full Process Profile (inputs, outputs, suppliers, customers, metrics).  
-- `docs/BPMN_Schema.png` → BPMN schema created with Camunda Modeler.  
-
-The Process Profile defined:  
-- **Inputs:** BOM, customer sales order, raw materials, quality requirements.  
-- **Outputs:** Sales order confirmations, production schedules, QA reports, packaged HDPE pipes.  
-- **Objectives & Metrics:**  
-  - Process time: 2 hours/piece  
-  - FPY (First Pass Yield): 99%  
-  - Cost per unit: €20.65  
-  - Scrap rate: <3%  
-  - Customer satisfaction: ≥4.5/5  
-  - On-time delivery: 95% target  
-
-The BPMN schema visually represented:  
-- Procurement workflow → Sales workflow → Production workflow → Quality → Delivery.  
+- `docs/BPMN_Schema.png` → BPMN schema created with Camunda Modeler.   
+- ' ' → Proposed process improvements to further optimise production workflows and minimise material waste.
