@@ -35,8 +35,8 @@ I collaborated with **[Vahini Irrigation Pvt. Ltd.](https://vahinipipes.com/)**,
   - Offers complexity in procurement and production, making it ideal for ERP modelling.  
 
 This company context provided a **real foundation** to carry the product data across BPMN, AP Plus, and SAP.
-<img width="944" height="453" alt="image" src="https://github.com/user-attachments/assets/da8198c3-88f8-40c9-b581-d4545b7fd62f" />
 
+<img width="944" height="453" alt="image" src="https://github.com/user-attachments/assets/da8198c3-88f8-40c9-b581-d4545b7fd62f" />
 
 ---
 
@@ -71,5 +71,7 @@ This was the **foundation of the BPRO project**, ensuring the rest of the work i
 📂 Files included:  
 - 📂 [Process Profile Report (PDF)](./Process%20Profile.pdf) → Full Process Profile (inputs, outputs, suppliers, customers, metrics).  
 - 📂 BPMN schema created with Camunda Modeler.
+  
  ![BPMN Schema](./BPMN%20Schema%20(HDPE%20Pipe).png) 
+ 
 - 📂 [Process Improvement Presentation (PDF)](./Process%20Improvement.pdf) → Proposed process improvements to further optimise production workflows and minimise material waste.
