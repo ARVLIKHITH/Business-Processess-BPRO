@@ -34,7 +34,9 @@ I collaborated with **[Vahini Irrigation Pvt. Ltd.](https://vahinipipes.com/)**,
   - Full supply chain involvement (raw materials → extrusion & machining → packaging → quality → delivery).  
   - Offers complexity in procurement and production, making it ideal for ERP modelling.  
 
-This company context provided a **real foundation** to carry the product data across BPMN, AP Plus, and SAP.  
+This company context provided a **real foundation** to carry the product data across BPMN, AP Plus, and SAP.
+<img width="944" height="453" alt="image" src="https://github.com/user-attachments/assets/da8198c3-88f8-40c9-b581-d4545b7fd62f" />
+
 
 ---
 
