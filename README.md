@@ -367,20 +367,19 @@ In SAP:
 - Achieved required **80+ confirmations**, proving process reliability.  
 
 ---
-## Disclaimer
-This repository contains a public summary of my academic project in SAP S/4HANA (BPRO Module).  
+## Disclaimer  
+
+This repository contains a **public summary** of my academic project in SAP S/4HANA (BPRO Module).  
 
 - All SAP system interfaces, outputs, and screenshots are **© SAP SE**.  
 - The academic coursework framework is **© Technische Hochschule Würzburg-Schweinfurt (FHWS)**.  
-- Only my own contributions (master data entries, process design, BPMN diagrams, tables, and analysis) are included here.  
+- Only my **own contributions** (master data entries, process design, BPMN diagrams, tables, and analysis) are included here.  
 - The **full project report** with detailed SAP screenshots and proprietary content is **not published publicly**.  
-  It is available **only upon request for interview or academic review purposes**.
-  
-  📂 [Full SAP Project Report – Request Access](https://drive.google.com/your-link-here)
-  *Please request it via Google Drive or contact me directly.*
 
+📂 **Full SAP Project Report – Request Access**  
+The complete report is available **only upon request for interview or academic review purposes**.  
+Please request access via **Google Drive** or contact me directly.  
 
-  
 
 
 
