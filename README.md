@@ -70,7 +70,7 @@ This was the **foundation of the BPRO project**, ensuring the rest of the work i
 
 📂 Files included:  
 - 📂 [Process Profile Report (PDF)](./Process%20Profile.pdf) → Full Process Profile (inputs, outputs, suppliers, customers, metrics).  
-- 📂 BPMN schema created with Camunda Modeler.
+- 📂 BPMN schema created with Camunda Modeller.
   
  ![BPMN Schema](./BPMN%20Schema%20(HDPE%20Pipe).png) 
  
@@ -101,7 +101,102 @@ Unlike SAP, APplus is designed to show process data in a more **visual and plann
   - To achieve this, I carefully scheduled orders in the **Gantt chart**, balancing workloads and timing to ensure each machine reached the 80% efficiency threshold.  
 - **Outcome:**  
   -  Achieved machine utilisation targets across all work centres.
-    IMAGE 
-  -  Demonstrated profitability analysis including **scrap, revenue, and profit tracking**.
-    IMAGE  
+    
+   <img width="1377" height="562" alt="Screenshot 2025-01-18 at 6 42 38 PM" src="https://github.com/user-attachments/assets/c7fcb061-66ed-4cf1-b247-e005c5a77e94" />
+   
+  -  Demonstrated Comparative costing for the final product with the customer order AB1000002.
+    
+  <img width="1107" height="784" alt="Screenshot 2025-01-17 at 5 06 29 AM copy" src="https://github.com/user-attachments/assets/7971bf5b-e16f-4935-ba87-b53d62f104bf" />
+
+## SAP S/4HANA
+
+The third and final part of the BPRO project involved executing the processes in **SAP S/4HANA**.  
+This part was more advanced, as I had to work across **multiple integrated modules**:  
+
+- **MM (Materials Management)** – Vendors, purchase orders, invoice verification  
+- **PP (Production Planning)** – BOM, routings, work centers, production orders  
+- **WM (Warehouse Management)** – Goods receipts, goods issues, storage locations  
+- **FI (Financial Accounting)** – Invoices, payments, and financial postings  
+
+---
+
+### Story of SAP Work
+
+After structuring data in APplus, the same logic was replicated in SAP.  
+I created all relevant master data, processed procurement, and ran the complete **sales-to-billing cycle**.  
+
+- **Challenge:** Instead of machine utilisation like in APplus, here I had to achieve **80+ confirmations**, one generated from each routing.  
+- Result: Successfully completed more than **80 confirmations**, ensuring that production, routing, and costing processes were validated.
+
+---
+
+### Procurement – Sample Purchase Orders
+
+| Purchase Doc | Supplier   | Material            | Qty   | Net Value (€) |
+|--------------|------------|---------------------|-------|---------------|
+| 4500001947   | BPA-VAQ-0G | Paper 0G            | 0.2kg | 4.00          |
+| 4500001950   | BPA-VBA-0G | 629 Wax Inner       | 0.3kg | 4.50          |
+| 4500001951   | BPA-VBA-0G | UV 0G               | 0.4kg | 9.00          |
+| 4500001955   | BPA-VRI-0G | Resin H829 0G       | 9.5kg | 29.93         |
+| 4500001957   | BPA-VSI-0G | Titanium 0G         | 0.6kg | 8.00          |
+
+**Summary:** Over **50+ purchase orders** were created for suppliers, covering raw materials such as resin, wax, titanium, modifiers, water, and other additives.
+
+---
+
+### Sales – Customer Invoices
+
+| Customer             | Document No | Type | Value (€) |
+|----------------------|-------------|------|-----------|
+| Rohr GMBH            | 90000389    | RV   | 245.74    |
+| BAUG                 | 90000402    | RV   | 737.21    |
+| Rhon-Grabfeld        | 90000404    | RV   | 491.47    |
+| Tech GMBH            | 90000416    | RV   | 1,228.68  |
+| Mahalakshmi Pvt. Ltd | 90000566    | RV   | 1,351.54  |
+| Studentenwerk PVT    | 90000565    | RV   | 860.07    |
+
+**Summary:** Invoices generated for **10+ customers**, with a combined sales value of more than **€4,900**.
+
+---
+
+### Routings – Example (HDPE Pipe)
+
+| Operation | Work Center | Description     | Control Key | Setup (min) | Labor (min) |
+|-----------|-------------|-----------------|-------------|-------------|-------------|
+| 0010      | BA-PQ-0G    | Packaging       | PP01        | 3           | 2           |
+| 0020      | BA-QU-0G    | Quality Check   | PP01        | 5           | 5           |
+| 0030      | BA-LA-0G    | Labelling       | PP01        | 3           | 2           |
+| 0040      | BA-PR-0G    | Processing      | PP03        | 3           | -           |
+
+---
+
+### Costing & Price Updates
+
+| Product            | Estimated Cost (€) | Price Released |
+|--------------------|--------------------|----------------|
+| HDPE Pipe (FP)     | 20.65 / unit       | ✔              |
+| Mixture (SF)       | Updated            | ✔              |
+| Heated Pipe (SF)   | Updated            | ✔              |
+| Printed Pipe (SF)  | Updated            | ✔              |
+
+---
+
+### Confirmations & Production Orders
+
+- Generated and confirmed **80+ production order confirmations**.  
+- Used **CO11N** to enter time tickets for each routing step.  
+- Adjusted planned vs actual times for realistic confirmation data.  
+- Linked production orders with **Goods Issues (GI)** and **Goods Receipts (GR)**.  
+
+---
+
+## SAP Outcome
+
+- Demonstrated **end-to-end ERP integration** inside SAP.  
+- Validated the complete flow: **procurement → production → sales → costing → inventory → invoicing**.  
+- Achieved required **80+ confirmations**, proving process reliability.  
+
+---
+
+
 
