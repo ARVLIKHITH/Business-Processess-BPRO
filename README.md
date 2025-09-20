@@ -365,7 +365,7 @@ In SAP:
 - Achieved required **80+ confirmations**, proving process reliability.  
 
 ---
-## 📜 License  
+## License  
 
 This repository is licensed under the **Creative Commons Attribution–NonCommercial 4.0 International (CC BY-NC 4.0)** license.  
 
