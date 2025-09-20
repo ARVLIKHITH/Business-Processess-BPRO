@@ -107,7 +107,9 @@ Unlike SAP, APplus is designed to show process data in a more **visual and plann
   -  Demonstrated Comparative costing for the final product with the customer order AB1000002.
     
   <img width="1107" height="784" alt="Screenshot 2025-01-17 at 5 06 29 AM copy" src="https://github.com/user-attachments/assets/7971bf5b-e16f-4935-ba87-b53d62f104bf" />
+  
 ----
+
 ## SAP S/4HANA
 
 The third and final part of the BPRO project involved executing the processes in **SAP S/4HANA**.  
@@ -127,8 +129,9 @@ I created all relevant master data, processed procurement, and ran the complete 
 
 - **Challenge:** Instead of machine utilisation like in APplus, here I had to achieve **80+ confirmations**, one generated from each routing.  
 - Result: Successfully completed more than **80 confirmations**, ensuring that production, routing, and costing processes were validated.
-
+  
 ---
+
 ### Material Master Data
 
 | Material Code  | Description              | Type            | UoM | Plant |
@@ -176,7 +179,7 @@ I created all relevant master data, processed procurement, and ran the complete 
 |                  | BPA-WATER-0G (Water)               | 50   | KG  | Raw Material |
 | **BPA-PACSP-0G** (Package, Semi-Finished) | BPA-PLAST-0G (Plastic)           | 0.2  | KG  | Raw Material |
 
-### Work Centers
+### Work Centres
 
 | Work Center | Description       | Plant | Control Key | Notes                       |
 |-------------|-------------------|-------|-------------|-----------------------------|
@@ -240,6 +243,7 @@ I created all relevant master data, processed procurement, and ran the complete 
 | BPA-VAU-0G   | Aqua Supply GMBH       | Bremen        | Water & additives        |
 
 ### Sales Price (Finished Product)
+
 ------------------------------
 Sales Org.     1000                FHWS Sales SW
 Distr. Channel 00                  Stand.distr.channel
@@ -258,7 +262,6 @@ Distr. Channel 00                  Stand.distr.channel
 | Mixture (SF)       | Updated            | ✔              |
 | Heated Pipe (SF)   | Updated            | ✔              |
 | Printed Pipe (SF)  | Updated            | ✔              |
-
 
 ### Procurement – Sample Purchase Orders
 
@@ -298,12 +301,9 @@ Distr. Channel 00                  Stand.distr.channel
 | Heated Pipe (SF)   | Updated            | ✔              |
 | Printed Pipe (SF)  | Updated            | ✔              |
 
-**Summary:**
-
-1. **Created Cost Estimates**  
+**Created Cost Estimates**  
    - Based on **BOM + Routings + Work Centers**.  
-   - Included material cost, labour cost, and overheads.  
----
+   - Included material cost, labour cost, and overheads. 
 
 ### Sample Cost Estimate Table
 
@@ -314,8 +314,6 @@ Distr. Channel 00                  Stand.distr.channel
 | BPA-HACSP-0G (Heated Pipe, SF)| 5.25 / unit        | ✔                          |
 | BPA-PRISP-0G (Printed Pipe, SF)| 4.80 / unit       | ✔                          |
 | BPA-PACSP-0G (Package, SF)    | 2.10 / unit        | ✔                          |
-
----
 
 **Summary:**
 
