@@ -365,6 +365,16 @@ In SAP:
 - Achieved required **80+ confirmations**, proving process reliability.  
 
 ---
+## 📜 License  
+
+This repository is licensed under the **Creative Commons Attribution–NonCommercial 4.0 International (CC BY-NC 4.0)** license.  
+
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)  
+
+- You are free to **share** and **adapt** my original content (tables, BPMN diagrams, process analysis) for non-commercial purposes, with attribution.  
+- SAP system interfaces, outputs, and screenshots are **© SAP SE** and excluded from this license.  
+- The academic coursework framework is **© FHWS** and excluded from this license.  
+---
 ## Disclaimer  
 
 This repository contains a **public summary** of my academic project in SAP S/4HANA (BPRO Module).  
