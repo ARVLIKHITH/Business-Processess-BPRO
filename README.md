@@ -375,7 +375,7 @@ This repository contains a public summary of my academic project in SAP S/4HANA 
 - Only my own contributions (master data entries, process design, BPMN diagrams, tables, and analysis) are included here.  
 - The **full project report** with detailed SAP screenshots and proprietary content is **not published publicly**.  
   It is available **only upon request for interview or academic review purposes**.
-  📂 [Full SAP Project Report – Placeholder](docs/Full_Report_Placeholder.md)  
+  📂 [Full SAP Project Report – Placeholder]([docs/Full_Report_Placeholder.md](https://github.com/ARVLIKHITH/Business-Processess-BPRO/compare/Full-SAP-Project-Report-%E2%80%93-Placeholder?expand=1))  
 
   
 
