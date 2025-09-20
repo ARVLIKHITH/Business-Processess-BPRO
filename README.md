@@ -374,7 +374,10 @@ This repository contains a public summary of my academic project in SAP S/4HANA 
 - The academic coursework framework is **© Technische Hochschule Würzburg-Schweinfurt (FHWS)**.  
 - Only my own contributions (master data entries, process design, BPMN diagrams, tables, and analysis) are included here.  
 - The **full project report** with detailed SAP screenshots and proprietary content is **not published publicly**.  
-  It is available **only upon request for interview or academic review purposes**.  
+  It is available **only upon request for interview or academic review purposes**.
+  📂 [Full SAP Project Report – Placeholder](docs/Full_Report_Placeholder.md)  
+
+  
 
 
 
