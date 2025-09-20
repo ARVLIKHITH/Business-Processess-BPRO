@@ -36,7 +36,14 @@ I collaborated with **[Vahini Irrigation Pvt. Ltd.](https://vahinipipes.com/)**,
 
 This company context provided a **real foundation** to carry the product data across BPMN, AP Plus, and SAP.
 
-<img width="944" height="453" alt="image" src="https://github.com/user-attachments/assets/da8198c3-88f8-40c9-b581-d4545b7fd62f" />
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/da8198c3-88f8-40c9-b581-d4545b7fd62f" alt="Robodroid Prototype" width="900"/>
+</p>
+---
+
+## Bill Of Materials
+
+![Screenshot_20-9-2025_173155_](https://github.com/user-attachments/assets/13d286dc-d69b-4b2d-9c0d-cd92bfd33ec5)
 
 ---
 
@@ -102,11 +109,15 @@ Unlike SAP, APplus is designed to show process data in a more **visual and plann
 - **Outcome:**  
   -  Achieved machine utilisation targets across all work centres.
     
+
    <img width="1377" height="562" alt="Screenshot 2025-01-18 at 6 42 38 PM" src="https://github.com/user-attachments/assets/c7fcb061-66ed-4cf1-b247-e005c5a77e94" />
    
+   
   -  Demonstrated Comparative costing for the final product with the customer order AB1000002.
+   
     
   <img width="1107" height="784" alt="Screenshot 2025-01-17 at 5 06 29 AM copy" src="https://github.com/user-attachments/assets/7971bf5b-e16f-4935-ba87-b53d62f104bf" />
+  
   
 ----
 
