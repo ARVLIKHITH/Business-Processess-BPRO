@@ -107,7 +107,7 @@ Unlike SAP, APplus is designed to show process data in a more **visual and plann
   -  Demonstrated Comparative costing for the final product with the customer order AB1000002.
     
   <img width="1107" height="784" alt="Screenshot 2025-01-17 at 5 06 29 AM copy" src="https://github.com/user-attachments/assets/7971bf5b-e16f-4935-ba87-b53d62f104bf" />
-
+----
 ## SAP S/4HANA
 
 The third and final part of the BPRO project involved executing the processes in **SAP S/4HANA**.  
@@ -298,7 +298,7 @@ Distr. Channel 00                  Stand.distr.channel
 | Heated Pipe (SF)   | Updated            | ✔              |
 | Printed Pipe (SF)  | Updated            | ✔              |
 
-### Cost Estimation Workflow
+**Summary:**
 
 1. **Created Cost Estimates**  
    - Based on **BOM + Routings + Work Centers**.  
@@ -317,7 +317,7 @@ Distr. Channel 00                  Stand.distr.channel
 
 ---
 
-### Key Insights
+**Summary:**
 
 - The **finished HDPE Pipe** had a final cost of **€20.65 per unit**.  
 - Semi-finished assemblies were also costed individually and updated in the system.  
@@ -333,7 +333,7 @@ Distr. Channel 00                  Stand.distr.channel
 - Adjusted planned vs actual times for realistic confirmation data.  
 - Linked production orders with **Goods Issues (GI)** and **Goods Receipts (GR)**.
 - 
-- ### Confirmations Overview
+**Summary:**
 
 - Each routing step in production required a **confirmation**.  
 - Confirmations validated the execution of:  
@@ -360,14 +360,6 @@ In SAP:
 | 1000002          | 0030      | BA-PO-0G    | C0007           | Confirmed |
 
 ---
-
-### Outcome
-
-- APplus: Machines balanced at ≥80% utilisation.  
-- SAP: Over 80 confirmations completed, ensuring all routing operations were properly executed and validated.  
-  
----
-
 ## SAP Outcome
 
 - Demonstrated **end-to-end ERP integration** inside SAP.  
@@ -375,6 +367,15 @@ In SAP:
 - Achieved required **80+ confirmations**, proving process reliability.  
 
 ---
+## ⚠ Disclaimer
+This repository contains a public summary of my academic project in SAP S/4HANA (BPRO Module).  
+
+- All SAP system interfaces, outputs, and screenshots are **© SAP SE**.  
+- The academic coursework framework is **© Technische Hochschule Würzburg-Schweinfurt (FHWS)**.  
+- Only my own contributions (master data entries, process design, BPMN diagrams, tables, and analysis) are included here.  
+- The **full project report** with detailed SAP screenshots and proprietary content is **not published publicly**.  
+  It is available **only upon request for interview or academic review purposes**.  
+
 
 
 
