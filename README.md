@@ -45,7 +45,7 @@ This company context provided a **real foundation** to carry the product data ac
 The first part of the project focused on **Business Process Modelling** using **BPMN (Business Process Model and Notation)**.  
 The task was to **design a digital schema** that outlines every key step in the lifecycle of the product – from **procurement of raw materials** to **final customer delivery**.  
 
-I used **Camunda Modeler** to build the BPMN diagram, and I also created a **Process Profile** (document) that defined all the process inputs, outputs, suppliers, and customers.  
+I used **Camunda Modeller** to build the BPMN diagram, and I also created a **Process Profile** (document) that defined all the process inputs, outputs, suppliers, and customers.  
 
 ---
 
@@ -330,7 +330,7 @@ Distr. Channel 00                  Stand.distr.channel
 - Used **CO11N** to enter time tickets for each routing step.  
 - Adjusted planned vs actual times for realistic confirmation data.  
 - Linked production orders with **Goods Issues (GI)** and **Goods Receipts (GR)**.
-- 
+  
 **Summary:**
 
 - Each routing step in production required a **confirmation**.  
@@ -339,7 +339,7 @@ Distr. Channel 00                  Stand.distr.channel
   - Processing time  
   - Labour time  
   - Goods issues/receipts
-  - 
+    
 In SAP:  
 - Focus was on **number of confirmations**.  
 - Target: At least **80 confirmations** (1 per routing step).  
