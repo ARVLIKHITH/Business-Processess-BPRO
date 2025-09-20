@@ -129,6 +129,136 @@ I created all relevant master data, processed procurement, and ran the complete 
 - Result: Successfully completed more than **80 confirmations**, ensuring that production, routing, and costing processes were validated.
 
 ---
+### Material Master Data
+
+| Material Code  | Description              | Type            | UoM | Plant |
+|----------------|--------------------------|-----------------|-----|-------|
+| BPA-HDPEP-0G   | HDPE Pipe (Finished)    | Finished Good   | PC  | 1000  |
+| BPA-HACSP-0G   | Heated & Cooled Pipe    | Semi-Finished   | PC  | 1000  |
+| BPA-CUTSP-0G   | Cut Pipe                | Semi-Finished   | PC  | 1000  |
+| BPA-MIXTU-0G   | Mixture                 | Semi-Finished   | KG  | 1000  |
+| BPA-PRISP-0G   | Printed Pipe            | Semi-Finished   | KG  | 1000  |
+| BPA-PACSP-0G   | Package                 | Semi-Finished   | KG  | 1000  |
+| BPA-RESIN-0G   | Resin H829              | Raw Material    | KG  | 1000  |
+| BPA-TITAN-0G   | Titanium                | Raw Material    | KG  | 1000  |
+| BPA-UVRMP-0G   | UV Stabiliser           | Raw Material    | KG  | 1000  |
+| BPA-WAXIS-0G   | 629 Wax Inner Surface   | Raw Material    | KG  | 1000  |
+| BPA-WAXOS-0G   | 4201/629 Wax Outer      | Raw Material    | KG  | 1000  |
+| BPA-PAPER-0G   | Paper                   | Raw Material    | KG  | 1000  |
+| BPA-PLAST-0G   | Plastic                 | Raw Material    | KG  | 1000  |
+| BPA-INKPP-0G   | Ink                     | Raw Material    | KG  | 1000  |
+| BPA-ACRYL-0G   | Acrylic Resin           | Raw Material    | KG  | 1000  |
+| BPA-OILPP-0G   | 120 Oil                 | Raw Material    | KG  | 1000  |
+| BPA-IMPFM-0G   | Impact Modifier FM50    | Raw Material    | KG  | 1000  |
+| BPA-IMPMB-0G   | Impact Modifier B564    | Raw Material    | KG  | 1000  |
+| BPA-PKACH-0G   | PK7 Kaneka Chemical     | Raw Material    | KG  | 1000  |
+| BPA-WATER-0G   | Water                   | Raw Material    | KG  | 1000  |
+
+### Bill of Materials (BOM)
+
+| Parent Product   | Component Material | Quantity | UoM | Notes                        |
+|------------------|--------------------|----------|-----|------------------------------|
+| **BPA-HDPEP-0G** (HDPE Pipe, Finished) | BPA-HACSP-0G (Heated & Cooled Pipe) | 1 | PC  | Semi-Finished |
+|                  | BPA-CUTSP-0G (Cut Pipe)           | 1 | PC  | Semi-Finished |
+|                  | BPA-PRISP-0G (Printed Pipe)       | 1 | KG  | Semi-Finished |
+|                  | BPA-PACSP-0G (Package)            | 1 | KG  | Semi-Finished |
+| **BPA-MIXTU-0G** (Mixture, Semi-Finished) | BPA-RESIN-0G (Resin H829)        | 9.5  | KG  | Raw Material |
+|                  | BPA-IMPFM-0G (Impact Modifier FM50) | 0.3  | KG  | Raw Material |
+|                  | BPA-IMPMB-0G (Impact Modifier B564) | 0.1  | KG  | Raw Material |
+|                  | BPA-PKACH-0G (PK7 Kaneka Chemical) | 0.3  | KG  | Raw Material |
+|                  | BPA-TITAN-0G (Titanium)            | 0.6  | KG  | Raw Material |
+|                  | BPA-WAXIS-0G (Wax Inner Surface)   | 0.3  | KG  | Raw Material |
+|                  | BPA-WAXOS-0G (Wax Outer Surface)   | 0.3  | KG  | Raw Material |
+|                  | BPA-OILPP-0G (120 Oil)             | 0.2  | KG  | Raw Material |
+|                  | BPA-WATER-0G (Water)               | 50   | KG  | Raw Material |
+| **BPA-PRISP-0G** (Printed Pipe, Semi-Finished) | BPA-INKPP-0G (Ink)              | 0.2  | KG  | Raw Material |
+|                  | BPA-ACRYL-0G (Acrylic Resin)       | 0.2  | KG  | Raw Material |
+|                  | BPA-WATER-0G (Water)               | 50   | KG  | Raw Material |
+| **BPA-PACSP-0G** (Package, Semi-Finished) | BPA-PLAST-0G (Plastic)           | 0.2  | KG  | Raw Material |
+
+### Work Centers
+
+| Work Center | Description       | Plant | Control Key | Notes                       |
+|-------------|-------------------|-------|-------------|-----------------------------|
+| BA-EX-0G    | Extrusion         | 1000  | PP01        | Core pipe forming process   |
+| BA-CC-0G    | Cooling           | 1000  | PP01        | Post-extrusion cooling      |
+| BA-AE-0G    | Aeration          | 1000  | PP03        | Air treatment               |
+| BA-CU-0G    | Cutting           | 1000  | PP01        | Pipe cutting                |
+| BA-GR-0G    | Grinding          | 1000  | PP03        | Surface finishing           |
+| BA-PQ-0G    | Packaging         | 1000  | PP01        | Packaging for delivery      |
+| BA-QU-0G    | Quality Check     | 1000  | PP01        | Inspection & testing        |
+| BA-LA-0G    | Labelling         | 1000  | PP01        | Product identification      |
+| BA-PR-0G    | Processing        | 1000  | PP03        | Final processing step       |
+| BA-MI-0G    | Mixing            | 1000  | PP01        | Raw material mixing         |
+| BA-WI-0G    | Weighing          | 1000  | PP01        | Weight verification         |
+| BA-PO-0G    | Pouring           | 1000  | PP03        | Material pouring            |
+| BA-CO-0G    | Combining         | 1000  | PP01        | Blend combination           |
+| BA-AD-0G    | Adding            | 1000  | PP03        | Additives input             |
+| BA-IN-0G    | Ink Formulation   | 1000  | PP01        | Ink & resin preparation     |
+| BA-BL-0G    | Blending          | 1000  | PP03        | Final material blending     |
+
+---
+
+### Sample Routing (HDPE Pipe)
+
+| Operation | Work Center | Description    | Control Key | Setup (min) | Labor (min) |
+|-----------|-------------|----------------|-------------|-------------|-------------|
+| 0010      | BA-EX-0G    | Extrusion      | PP01        | 4           | 4           |
+| 0020      | BA-CC-0G    | Cooling        | PP01        | 4           | -           |
+| 0030      | BA-AE-0G    | Aeration       | PP03        | 2           | -           |
+| 0040      | BA-CU-0G    | Cutting        | PP01        | 6           | 6           |
+| 0050      | BA-GR-0G    | Grinding       | PP03        | 4           | 4           |
+| 0060      | BA-PQ-0G    | Packaging      | PP01        | 3           | 2           |
+| 0070      | BA-QU-0G    | Quality Check  | PP01        | 5           | 5           |
+| 0080      | BA-LA-0G    | Labelling      | PP01        | 3           | 2           |
+| 0090      | BA-PR-0G    | Processing     | PP03        | 3           | -           |
+
+### Customer Master Data
+
+| Customer Code | Customer Name               | Location (DE)      | Notes                          |
+|---------------|-----------------------------|--------------------|--------------------------------|
+| BPA-CU01-0G   | Rohr GMBH                   | Frankfurt          | Major distributor, bulk orders |
+| BPA-CU02-0G   | BAUG                        | Munich             | Construction industry client   |
+| BPA-CU03-0G   | Rhoen-Grabfeld Maustechnik  | Schweinfurt        | Regional SME                   |
+| BPA-CU04-0G   | Tech GMBH                   | Nuremberg          | Engineering/industrial client  |
+| BPA-CU05-0G   | Mahalakshmi Pvt. Ltd        | Stuttgart          | International partner (subsidiary in DE) |
+| BPA-CU06-0G   | Studentenwerk PVT           | Würzburg           | Institutional customer         |
+| BPA-CU07-0G   | Mainfranken Installationen  | Würzburg           | Local contractor               |
+| BPA-CU08-0G   | Ledward PVT. Ltd            | Berlin             | Urban utility projects         |
+| BPA-CU09-0G   | Pasadena PVT. Ltd           | Hamburg            | Long-term contract client      |
+
+### Vendor Master Data
+
+| Vendor Code  | Supplier Name          | Location (DE) | Material Supplied        |
+|--------------|------------------------|---------------|--------------------------|
+| BPA-VAQ-0G   | Rishabh Texim LPP-GJ   | Hamburg       | Paper, Packaging         |
+| BPA-VSI-0G   | Silvin Additives       | Frankfurt     | Titanium, UV stabilisers |
+| BPA-VBA-0G   | Basil Prompt Vinyl PVT | Stuttgart     | Wax (Inner & Outer)      |
+| BPA-VRI-0G   | Resin Supply Intl.     | Munich        | Resin H829               |
+| BPA-VIN-0G   | Ink Pack GMBH          | Berlin        | Printing Ink             |
+| BPA-VPM-0G   | Pac Mate GMBH          | Cologne       | Plastic, Packaging       |
+| BPA-VAU-0G   | Aqua Supply GMBH       | Bremen        | Water & additives        |
+
+### Sales Price (Finished Product)
+------------------------------
+Sales Org.     1000                FHWS Sales SW
+Distr. Channel 00                  Stand.distr.channel
+|Material                                                           |
+|CnTy ReSt S Scale Qty UoM Amount Unit per UoM Valid From Valid To  |
+|BPA-HDPEP-0G                                                       |
+|PR00                      20,65  EUR   1  PC  15.01.2025 31.12.2026|
+
+---------------------------------------------------------------------     
+
+### Costing & Price Updates
+
+| Product            | Estimated Cost (€) | Price Released |
+|--------------------|--------------------|----------------|
+| HDPE Pipe (FP)     | 20.65 / unit       | ✔              |
+| Mixture (SF)       | Updated            | ✔              |
+| Heated Pipe (SF)   | Updated            | ✔              |
+| Printed Pipe (SF)  | Updated            | ✔              |
+
 
 ### Procurement – Sample Purchase Orders
 
@@ -159,17 +289,6 @@ I created all relevant master data, processed procurement, and ran the complete 
 
 ---
 
-### Routings – Example (HDPE Pipe)
-
-| Operation | Work Center | Description     | Control Key | Setup (min) | Labor (min) |
-|-----------|-------------|-----------------|-------------|-------------|-------------|
-| 0010      | BA-PQ-0G    | Packaging       | PP01        | 3           | 2           |
-| 0020      | BA-QU-0G    | Quality Check   | PP01        | 5           | 5           |
-| 0030      | BA-LA-0G    | Labelling       | PP01        | 3           | 2           |
-| 0040      | BA-PR-0G    | Processing      | PP03        | 3           | -           |
-
----
-
 ### Costing & Price Updates
 
 | Product            | Estimated Cost (€) | Price Released |
@@ -179,6 +298,32 @@ I created all relevant master data, processed procurement, and ran the complete 
 | Heated Pipe (SF)   | Updated            | ✔              |
 | Printed Pipe (SF)  | Updated            | ✔              |
 
+### Cost Estimation Workflow
+
+1. **Created Cost Estimates**  
+   - Based on **BOM + Routings + Work Centers**.  
+   - Included material cost, labour cost, and overheads.  
+---
+
+### Sample Cost Estimate Table
+
+| Product            | Estimated Cost (€) | Released as Standard Price |
+|--------------------|--------------------|----------------------------|
+| BPA-HDPEP-0G (HDPE Pipe, FG) | 20.65 / unit       | ✔                          |
+| BPA-MIXTU-0G (Mixture, SF)   | 8.30 / unit        | ✔                          |
+| BPA-HACSP-0G (Heated Pipe, SF)| 5.25 / unit        | ✔                          |
+| BPA-PRISP-0G (Printed Pipe, SF)| 4.80 / unit       | ✔                          |
+| BPA-PACSP-0G (Package, SF)    | 2.10 / unit        | ✔                          |
+
+---
+
+### Key Insights
+
+- The **finished HDPE Pipe** had a final cost of **€20.65 per unit**.  
+- Semi-finished assemblies were also costed individually and updated in the system.  
+- Variance analysis showed that machine utilisation and order scheduling strongly influenced costs.  
+- With price release, the updated costs flowed into **sales orders, invoices, and profitability reports**.  
+
 ---
 
 ### Confirmations & Production Orders
@@ -186,8 +331,41 @@ I created all relevant master data, processed procurement, and ran the complete 
 - Generated and confirmed **80+ production order confirmations**.  
 - Used **CO11N** to enter time tickets for each routing step.  
 - Adjusted planned vs actual times for realistic confirmation data.  
-- Linked production orders with **Goods Issues (GI)** and **Goods Receipts (GR)**.  
+- Linked production orders with **Goods Issues (GI)** and **Goods Receipts (GR)**.
+- 
+- ### Confirmations Overview
 
+- Each routing step in production required a **confirmation**.  
+- Confirmations validated the execution of:  
+  - Setup time  
+  - Processing time  
+  - Labour time  
+  - Goods issues/receipts
+  - 
+In SAP:  
+- Focus was on **number of confirmations**.  
+- Target: At least **80 confirmations** (1 per routing step).  
+- Completed **125 confirmations** successfully.  
+
+### Sample Confirmations Log (SAP S/4HANA)
+
+| Production Order | Operation | Work Center | Confirmation No | Status    |
+|------------------|-----------|-------------|-----------------|-----------|
+| 1000001          | 0010      | BA-EX-0G    | C0001           | Confirmed |
+| 1000001          | 0020      | BA-CC-0G    | C0002           | Confirmed |
+| 1000001          | 0030      | BA-AE-0G    | C0003           | Confirmed |
+| 1000001          | 0040      | BA-CU-0G    | C0004           | Confirmed |
+| 1000002          | 0010      | BA-MI-0G    | C0005           | Confirmed |
+| 1000002          | 0020      | BA-WI-0G    | C0006           | Confirmed |
+| 1000002          | 0030      | BA-PO-0G    | C0007           | Confirmed |
+
+---
+
+### Outcome
+
+- APplus: Machines balanced at ≥80% utilisation.  
+- SAP: Over 80 confirmations completed, ensuring all routing operations were properly executed and validated.  
+  
 ---
 
 ## SAP Outcome
