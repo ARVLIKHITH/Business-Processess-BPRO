@@ -1,21 +1,9 @@
-Copyright (c) 2025 Likhith Anand
+Copyright (c) 2025 Likhith Anand  
+All rights reserved.  
 
-This work is licensed under the Creative Commons Attribution–NonCommercial 4.0 International License (CC BY-NC 4.0).
+This repository is provided for viewing purposes only.  
+No part of the content (tables, diagrams, BPMN schemas, documentation, or analysis)  
+may be copied, reproduced, modified, or redistributed in any form without prior permission.  
 
-You are free to:
-- Share — copy and redistribute the material in any medium or format
-- Adapt — remix, transform, and build upon the material
-
-Under the following terms:
-- Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made.
-- NonCommercial — You may not use the material for commercial purposes.
-
-This license applies to:
-- All original content created by me in this repository, including tables, BPMN schemas, process diagrams, and analysis.
-
-Exclusions:
-- All SAP system interfaces, outputs, and screenshots are © SAP SE.
-- The academic coursework framework is © Technische Hochschule Würzburg-Schweinfurt (FHWS).
-- These excluded materials are included here only for educational/portfolio demonstration purposes and are **not licensed for reuse**.
-
-Full license text: https://creativecommons.org/licenses/by-nc/4.0/
+All SAP system interfaces, outputs, and screenshots are © SAP SE.  
+The academic coursework framework is © Technische Hochschule Würzburg-Schweinfurt (FHWS).
