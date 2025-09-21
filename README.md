@@ -378,13 +378,18 @@ In SAP:
 ---
 ## License  
 
-This repository is licensed under the **Creative Commons Attribution–NonCommercial 4.0 International (CC BY-NC 4.0)** license.  
+This repository is shared **for viewing purposes only**.  
+All rights reserved © 2025 Likhith Anand.  
 
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)  
 
-- You are free to **share** and **adapt** my original content (tables, BPMN diagrams, process analysis) for non-commercial purposes, with attribution.  
-- SAP system interfaces, outputs, and screenshots are **© SAP SE** and excluded from this license.  
-- The academic coursework framework is **© FHWS** and excluded from this license.  
+- No copying, reproduction, modification, or redistribution of the content is permitted.  
+- All SAP system interfaces, outputs, and screenshots are **© SAP SE**.  
+- The academic coursework framework is **© FHWS**.  
+- Only my **own contributions** (master data entries, BPMN diagrams, tables, analysis) are included here for demonstration.  
+
+---
+
 ---
 ## Disclaimer  
 
