@@ -381,8 +381,6 @@ In SAP:
 This repository is shared **for viewing purposes only**.  
 All rights reserved © 2025 Likhith Anand.  
 
-[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)  
-
 - No copying, reproduction, modification, or redistribution of the content is permitted.  
 - All SAP system interfaces, outputs, and screenshots are **© SAP SE**.  
 - The academic coursework framework is **© FHWS**.  
