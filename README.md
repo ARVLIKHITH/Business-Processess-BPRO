@@ -398,10 +398,15 @@ This repository contains a **public summary** of my academic project in SAP S/4H
 - Only my **own contributions** (master data entries, process design, BPMN diagrams, tables, and analysis) are included here.  
 - The **full project report** with detailed SAP screenshots and proprietary content is **not published publicly**.  
 
-📂 **Full SAP Project Report – Request Access**  
-The complete report is available **only upon request for interview or academic review purposes**.  
-Please request access via **Google Drive** or contact me directly.  
+---
 
+📂 **Full SAP Project Report – Request Access**  
+
+[Open Google Drive File](https://drive.google.com/file/d/1RZSmnf3jChetKBIfppZVNl-5W-Lok9du/view?usp=drive_link)
+- The complete report is available **only upon request for interview or academic review purposes**.  
+- Please request access via **Google Drive** or contact me directly.  
+
+---
 
 
 
